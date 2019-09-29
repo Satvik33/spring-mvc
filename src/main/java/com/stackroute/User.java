@@ -1,40 +1,23 @@
 package com.stackroute;
 
 public class User {
-    private String name;
-    private String id;
-    private String age;
+    private String fname;
+    private String lname;
 
-    public User(String name, String id, String age) {
-        this.name = name;
-        this.id = id;
-        this.age = age;
+    public String getFname() {
+        return fname;
     }
 
-
-
-    public void setName(String name) {
-        this.name = name;
+    public void setFname(String fname) {
+        this.fname = fname;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public String getLname() {
+        return lname;
     }
 
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public String getAge() {
-        return age;
+    public void setLname(String lname) {
+        this.lname = lname;
     }
 
    /* @Override

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id = "user" class = "com.stackroute.User">
+        <constructor-arg name = "name" value = "Satvik"></constructor-arg>
+        <constructor-arg name = "id" value = "176"></constructor-arg>
+        <constructor-arg name = "age" value = "23"></constructor-arg>
+    </bean>
+    <bean name = "userController" class = "com.stackroute.UserController">
+        <constructor-arg name="user" ref="user"/>
+    </bean>
+<bean id = "HandlerMapping" class = "org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+
+<bean name = "/welcome.html" class = "com.stackroute.UserController"/>
+    <bean id = "viewResolver" class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
+            <property name = "prefix">
+                <value>/WEB-INF/</value>
+            </property>
+        <property name="suffix" value=".jsp">
+
+        </property>
+    </bean>
+
+
+
+</beans>-->
